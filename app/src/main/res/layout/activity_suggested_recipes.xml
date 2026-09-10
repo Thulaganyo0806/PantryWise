@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF7FC"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Suggested Recipes"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#5E35B1"
+        android:gravity="center"
+        android:padding="16dp" />
+
+    <TextView
+        android:id="@+id/emptyMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No recipes available with your current ingredients."
+        android:textSize="17sp"
+        android:textColor="#5F5360"
+        android:gravity="center"
+        android:padding="20dp"
+        android:visibility="gone" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:id="@+id/recipeContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+    </ScrollView>
+
+</LinearLayout>

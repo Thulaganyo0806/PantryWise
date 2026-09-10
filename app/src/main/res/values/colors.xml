@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="pw_purple">#6C35D9</color>
+    <color name="pw_dark_purple">#4520A8</color>
+    <color name="pw_pink">#F45AA9</color>
+    <color name="pw_light_pink">#FFE4F2</color>
+    <color name="pw_soft_purple">#EEE5FF</color>
+    <color name="pw_white">#FFFFFF</color>
+    <color name="pw_dark_text">#292033</color>
+    <color name="pw_light_text">#6E6475</color>
+
+</resources>

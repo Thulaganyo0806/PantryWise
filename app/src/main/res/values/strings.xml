@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PantryWise</string>
+
+    <string-array name="unit_options">
+        <item>pieces</item>
+        <item>grams</item>
+        <item>kg</item>
+        <item>ml</item>
+        <item>litres</item>
+        <item>slices</item>
+        <item>cloves</item>
+        <item>leaves</item>
+        <item>can</item>
+    </string-array>
+
+</resources>

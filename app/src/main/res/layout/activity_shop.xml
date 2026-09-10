@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF7FC"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🛒 PantryWise Shop"
+            android:textColor="#542080"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingTop="15dp"
+            android:paddingBottom="5dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Browse ingredients available to buy"
+            android:textColor="#66506F"
+            android:textSize="17sp"
+            android:gravity="center"
+            android:paddingBottom="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🍅  Tomato\nR15 each"
+            android:textColor="#542080"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="18dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/pantrywise_pink_button" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🥔  Potato\nR25 per pack"
+            android:textColor="#542080"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="18dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/pantrywise_lavender_button" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🍗  Chicken\nR60 per 200g"
+            android:textColor="#542080"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="18dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/pantrywise_pink_button" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🧀  Cheese\nR45 per 50g"
+            android:textColor="#542080"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="18dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/pantrywise_lavender_button" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🍞  Bread\nR20 per loaf"
+            android:textColor="#542080"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="18dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/pantrywise_pink_button" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🍚  Rice\nR35 per 500g"
+            android:textColor="#542080"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="18dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/pantrywise_lavender_button" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🥚  Eggs\nR30 per pack"
+            android:textColor="#542080"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="18dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/pantrywise_pink_button" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🥕  Carrots\nR18 per pack"
+            android:textColor="#542080"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="18dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/pantrywise_lavender_button" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🧅  Onion\nR12 each"
+            android:textColor="#542080"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="18dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/pantrywise_pink_button" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🫑  Pepper\nR15 each"
+            android:textColor="#542080"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="18dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/pantrywise_lavender_button" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🥬  Cabbage\nR20 each"
+            android:textColor="#542080"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="18dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/pantrywise_pink_button" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🥬  Lettuce\nR18 each"
+            android:textColor="#542080"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="18dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/pantrywise_lavender_button" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🐟  Tuna\nR28 per can"
+            android:textColor="#542080"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="18dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/pantrywise_pink_button" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🥛  Milk\nR22 per litre"
+            android:textColor="#542080"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="18dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/pantrywise_lavender_button" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🧄  Garlic\nR10 per pack"
+            android:textColor="#542080"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="18dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/pantrywise_pink_button" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🫛  Peas\nR25 per pack"
+            android:textColor="#542080"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="18dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/pantrywise_lavender_button" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🍔  Burger Patty\nR50 per pack"
+            android:textColor="#542080"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="18dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/pantrywise_pink_button" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🍟  Cooking Oil\nR40 per 500ml"
+            android:textColor="#542080"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="18dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/pantrywise_lavender_button" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🧂  Salt\nR12 per pack"
+            android:textColor="#542080"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="18dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/pantrywise_pink_button" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🍬  Sugar\nR20 per 500g"
+            android:textColor="#542080"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="18dp"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/pantrywise_lavender_button" />
+
+    </LinearLayout>
+
+</ScrollView>

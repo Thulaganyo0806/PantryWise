@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#F7D6E8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="PantryWise ♡"
+            android:textColor="#542080"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="SMART PANTRY • SMARTER MEALS"
+            android:textColor="#D83F91"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="Welcome back! 💕"
+            android:textColor="#542080"
+            android:textSize="29sp"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="25dp"
+            android:text="What would you like to do today?"
+            android:textColor="#654F70"
+            android:textSize="17sp"
+            android:gravity="center" />
+
+        <LinearLayout
+            android:id="@+id/cardShop"
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+            android:layout_marginBottom="14dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="18dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:elevation="4dp">
+
+            <TextView
+                android:layout_width="58dp"
+                android:layout_height="wrap_content"
+                android:text="🛒"
+                android:textSize="30sp"
+                android:gravity="center" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingStart="12dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SHOP"
+                    android:textColor="#542080"
+                    android:textSize="21sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Browse ingredients available to buy"
+                    android:textColor="#6D5875"
+                    android:textSize="15sp"
+                    android:layout_marginTop="3dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text="›"
+                android:textColor="#542080"
+                android:textSize="32sp"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/cardAddIngredient"
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+            android:layout_marginBottom="14dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="18dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:elevation="4dp">
+
+            <TextView
+                android:layout_width="58dp"
+                android:layout_height="wrap_content"
+                android:text="＋"
+                android:textColor="#542080"
+                android:textSize="38sp"
+                android:gravity="center" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingStart="12dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ADD INGREDIENT"
+                    android:textColor="#542080"
+                    android:textSize="21sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Add a single ingredient"
+                    android:textColor="#6D5875"
+                    android:textSize="15sp"
+                    android:layout_marginTop="3dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text="›"
+                android:textColor="#542080"
+                android:textSize="32sp"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/cardMultiple"
+            android:layout_width="match_parent"
+            android:layout_height="145dp"
+            android:layout_marginBottom="14dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="18dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:elevation="4dp">
+
+            <TextView
+                android:layout_width="58dp"
+                android:layout_height="wrap_content"
+                android:text="🛍️"
+                android:textSize="30sp"
+                android:gravity="center" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingStart="12dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ADD MULTIPLE"
+                    android:textColor="#542080"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="INGREDIENTS"
+                    android:textColor="#542080"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Add more than one ingredient"
+                    android:textColor="#6D5875"
+                    android:textSize="15sp"
+                    android:layout_marginTop="4dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text="›"
+                android:textColor="#542080"
+                android:textSize="32sp"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/cardRecipes"
+            android:layout_width="match_parent"
+            android:layout_height="145dp"
+            android:layout_marginBottom="14dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="18dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:elevation="4dp">
+
+            <TextView
+                android:layout_width="58dp"
+                android:layout_height="wrap_content"
+                android:text="👩‍🍳"
+                android:textSize="30sp"
+                android:gravity="center" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingStart="12dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SUGGESTED RECIPES"
+                    android:textColor="#542080"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Discover recipes you can make"
+                    android:textColor="#6D5875"
+                    android:textSize="15sp"
+                    android:layout_marginTop="4dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text="›"
+                android:textColor="#542080"
+                android:textSize="32sp"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/cardSettings"
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+            android:layout_marginBottom="24dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="18dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:elevation="4dp">
+
+            <TextView
+                android:layout_width="58dp"
+                android:layout_height="wrap_content"
+                android:text="⚙️"
+                android:textSize="30sp"
+                android:gravity="center" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingStart="12dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SETTINGS"
+                    android:textColor="#542080"
+                    android:textSize="21sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Manage your preferences"
+                    android:textColor="#6D5875"
+                    android:textSize="15sp"
+                    android:layout_marginTop="3dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text="›"
+                android:textColor="#542080"
+                android:textSize="32sp"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Smart ingredients, smarter meals. "
+            android:textColor="#D83F91"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:gravity="center"
+            android:layout_marginBottom="20dp" />
+
+    </LinearLayout>
+
+</ScrollView>

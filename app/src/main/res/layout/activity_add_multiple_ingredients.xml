@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF7FC">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:background="#FFF7FC">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Ingredients"
+            android:textColor="#5E35B1"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add several ingredients to your pantry at once."
+            android:textColor="#6B5B6B"
+            android:textSize="17sp"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingredient 1"
+            android:textColor="#5E35B1"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/name1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingredient name"
+            android:inputType="textCapSentences"
+            android:padding="14dp"
+            android:background="@drawable/pantrywise_card"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/quantity1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Quantity"
+            android:inputType="numberDecimal"
+            android:padding="14dp"
+            android:background="@drawable/pantrywise_card"
+            android:layout_marginBottom="8dp"/>
+
+        <Spinner
+            android:id="@+id/unit1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/unit_options"
+            android:padding="10dp"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/expiry1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Expiry date e.g. 10/09/2026"
+            android:inputType="text"
+            android:padding="14dp"
+            android:background="@drawable/pantrywise_card"
+            android:layout_marginBottom="24dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingredient 2"
+            android:textColor="#5E35B1"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/name2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingredient name"
+            android:inputType="textCapSentences"
+            android:padding="14dp"
+            android:background="@drawable/pantrywise_card"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/quantity2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Quantity"
+            android:inputType="numberDecimal"
+            android:padding="14dp"
+            android:background="@drawable/pantrywise_card"
+            android:layout_marginBottom="8dp"/>
+
+        <Spinner
+            android:id="@+id/unit2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/unit_options"
+            android:padding="10dp"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/expiry2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Expiry date e.g. 10/09/2026"
+            android:inputType="text"
+            android:padding="14dp"
+            android:background="@drawable/pantrywise_card"
+            android:layout_marginBottom="24dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingredient 3"
+            android:textColor="#5E35B1"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/name3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingredient name"
+            android:inputType="textCapSentences"
+            android:padding="14dp"
+            android:background="@drawable/pantrywise_card"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/quantity3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Quantity"
+            android:inputType="numberDecimal"
+            android:padding="14dp"
+            android:background="@drawable/pantrywise_card"
+            android:layout_marginBottom="8dp"/>
+
+        <Spinner
+            android:id="@+id/unit3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/unit_options"
+            android:padding="10dp"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/expiry3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Expiry date e.g. 10/09/2026"
+            android:inputType="text"
+            android:padding="14dp"
+            android:background="@drawable/pantrywise_card"
+            android:layout_marginBottom="24dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingredient 4"
+            android:textColor="#5E35B1"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/name4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingredient name"
+            android:inputType="textCapSentences"
+            android:padding="14dp"
+            android:background="@drawable/pantrywise_card"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/quantity4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Quantity"
+            android:inputType="numberDecimal"
+            android:padding="14dp"
+            android:background="@drawable/pantrywise_card"
+            android:layout_marginBottom="8dp"/>
+
+        <Spinner
+            android:id="@+id/unit4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/unit_options"
+            android:padding="10dp"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/expiry4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Expiry date e.g. 10/09/2026"
+            android:inputType="text"
+            android:padding="14dp"
+            android:background="@drawable/pantrywise_card"
+            android:layout_marginBottom="24dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingredient 5"
+            android:textColor="#5E35B1"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/name5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingredient name"
+            android:inputType="textCapSentences"
+            android:padding="14dp"
+            android:background="@drawable/pantrywise_card"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/quantity5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Quantity"
+            android:inputType="numberDecimal"
+            android:padding="14dp"
+            android:background="@drawable/pantrywise_card"
+            android:layout_marginBottom="8dp"/>
+
+        <Spinner
+            android:id="@+id/unit5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/unit_options"
+            android:padding="10dp"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/expiry5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Expiry date e.g. 10/09/2026"
+            android:inputType="text"
+            android:padding="14dp"
+            android:background="@drawable/pantrywise_card"
+            android:layout_marginBottom="24dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingredient 6"
+            android:textColor="#5E35B1"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/name6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingredient name"
+            android:inputType="textCapSentences"
+            android:padding="14dp"
+            android:background="@drawable/pantrywise_card"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/quantity6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Quantity"
+            android:inputType="numberDecimal"
+            android:padding="14dp"
+            android:background="@drawable/pantrywise_card"
+            android:layout_marginBottom="8dp"/>
+
+        <Spinner
+            android:id="@+id/unit6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/unit_options"
+            android:padding="10dp"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/expiry6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Expiry date e.g. 10/09/2026"
+            android:inputType="text"
+            android:padding="14dp"
+            android:background="@drawable/pantrywise_card"
+            android:layout_marginBottom="28dp"/>
+
+
+        <Button
+            android:id="@+id/addAllButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ADD ALL INGREDIENTS"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:backgroundTint="#6A3FC4"
+            android:padding="16dp"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

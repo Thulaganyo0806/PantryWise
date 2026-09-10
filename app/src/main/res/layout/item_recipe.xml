@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_margin="10dp"
+    android:background="@drawable/pantrywise_card">
+
+    <TextView
+        android:id="@+id/recipeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recipe Name"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#5E35B1"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:id="@+id/recipeDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You have the ingredients needed"
+        android:textSize="16sp"
+        android:textColor="#5F5360"
+        android:paddingBottom="12dp" />
+
+    <Button
+        android:id="@+id/viewRecipeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VIEW RECIPE"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#5E35B1" />
+
+</LinearLayout>
