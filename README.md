@@ -48,4 +48,6 @@ The project contains the Android application source code, layouts, database impl
 
 ## Author
 
-Mobile App Development 700
+Name& Surname: Thulaganyo Motsei
+Student NO: 402110758
+Module Name: Mobile App Development 700
