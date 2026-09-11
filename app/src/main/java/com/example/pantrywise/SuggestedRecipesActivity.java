@@ -147,7 +147,7 @@ public class SuggestedRecipesActivity extends AppCompatActivity {
             );
 
             emptyMessage.setText(
-                    "No recipes available with your current ingredients."
+                    "No recipes available yet. Add more ingredients to discover recipes!"
             );
         }
     }
