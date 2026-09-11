@@ -37,7 +37,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="28dp"
-            android:text="Welcome back! 💕"
+            android:text="Welcome to PantryWise! 💕"
             android:textColor="#542080"
             android:textSize="29sp"
             android:textStyle="bold"
