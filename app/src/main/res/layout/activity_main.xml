@@ -48,7 +48,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="25dp"
-            android:text="What would you like to do today?"
+            android:text="Manage your pantry and discover delicious recipes"
             android:textColor="#654F70"
             android:textSize="17sp"
             android:gravity="center" />
