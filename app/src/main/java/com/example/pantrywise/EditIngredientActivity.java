@@ -179,7 +179,7 @@ public class EditIngredientActivity extends AppCompatActivity {
 
             Toast.makeText(
                     this,
-                    "Ingredient updated successfully",
+                    name + " updated successfully",
                     Toast.LENGTH_SHORT
             ).show();
 
