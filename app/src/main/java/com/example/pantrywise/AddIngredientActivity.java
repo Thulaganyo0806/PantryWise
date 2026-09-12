@@ -144,7 +144,7 @@ public class AddIngredientActivity extends AppCompatActivity {
 
             Toast.makeText(
                     this,
-                    "Ingredient added",
+                    name + " added successfully",
                     Toast.LENGTH_SHORT
             ).show();
 
