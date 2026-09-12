@@ -119,9 +119,18 @@ public class RecipeDetailActivity extends AppCompatActivity {
                     .append("\n");
         }
 
-        txtIngredients.setText(
-                ingredientText.toString()
-        );
+        if (ingredients.isEmpty()) {
+
+            txtIngredients.setText(
+                    "No ingredients listed for this recipe."
+            );
+
+        } else {
+
+            txtIngredients.setText(
+                    ingredientText.toString()
+            );
+        }
     }
 
     private void confirmDelete() {
